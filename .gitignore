@@ -1,0 +1,14 @@
+# Terraform working files and state (state can contain sensitive values)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+
+# Keep the provider lock file: it pins exact provider versions
+!.terraform.lock.hcl
+
+# OS / editor clutter
+.DS_Store
+.vscode/
